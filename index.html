@@ -20,6 +20,16 @@
 
         background-color: black;
       }
+      .bottom-center-text {
+        position: fixed;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        color: white;
+        text-align: center;
+        width: 100%;
+        padding-bottom: 20px; /* optional spacing from bottom */
+      }
   
       /* Media query for mobile devices  */
       @media only screen and (max-width: 767px) {
@@ -30,6 +40,9 @@
     </style>
   </head>
   <body>
-    
+    <div class='bottom-center-text'>
+      121 W Tabernacle Street<br>
+      St. George, UT  84770
+    </div>
   </body>
 </html>
